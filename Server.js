@@ -1,14 +1,17 @@
-const express =require('express');
+const express = require ('express');
 
-const app = express();  // create server 
- 
-app.get('/',(req, res) =>{
+ const app = express();// server create 
 
-    res.send('home page')
-})
+//  user resquest and response
 
-app.get('/about',(req,res)=> {
+   app.get('/', (req,res)=>{
+
+      res.send('hello world')
+   })
+
+   app.get('/about',(req,res) =>{
     res.send('about page')
-})
+   })
 
-app.listen(3000)  // start server 
+ app.listen(3000)  //start server 
+
