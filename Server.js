@@ -1,3 +1,11 @@
+   ./* carete server =>  npm init -y 
+   
+   npm install express
+   node server.js
+   open browser  localhost:3000  */
+   */
+
+
 const express = require ('express');
 
  const app = express();// server create 
