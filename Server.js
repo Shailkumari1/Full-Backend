@@ -32,6 +32,9 @@
 
       const app = require ('./src/App');
 
+      const connectDB = require('./src/db/db');
+
+      connectDB();
       // server start 
 
       app.listen(3000,()=>{
