@@ -1,0 +1,5 @@
+# secreat file 
+.env 
+
+# node modules depandencies
+/node_modules
