@@ -22,6 +22,9 @@
 //----------server start--------------
 
 const app = require('./src/app');
+const ConnectToDatabse = require('./src/db/db');
+
+ConnectToDatabse();
 
 // call back server 
 
