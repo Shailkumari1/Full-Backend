@@ -1,16 +1,30 @@
-const express = require("express");
 
-const app = express();
+// const express = require("express");
 
-app.get("/",(reuest,response) => {
+// express()
 
-    response.send("home");
+// const app = express();
 
+// app.get("/",(reuest,response) => {
+
+//     response.send("home");
+
+// })
+
+// app.get('/about',(request,response) => {
+
+//     response.send("about");
+// })
+
+// app.listen(3000);
+
+
+//----------server start--------------
+
+const app = require('./src/app');
+
+// call back server 
+
+app.listen(4000,()=>{
+    console.log('server is running in port 4000');
 })
-
-app.get('/about',(request,response) => {
-
-    response.send("about");
-})
-
-app.listen(3000);
